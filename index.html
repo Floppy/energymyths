@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title></title>
+
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="reveal.js/css/reveal.min.css">
+		<link rel="stylesheet" href="reveal.js/css/theme/default.css" id="theme">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section>
+					<h1>Energy: Facts & Fiction</h1>
+					<h3>James Smith</h3>
+					<p>
+						<small><a href="http://floppy.org.uk">http://floppy.org.uk</a> / <a href="http://twitter.com/floppy">@floppy</a></small>
+					</p>
+				</section>
+
+				<section>
+					<h1>#1: Renewables are driving up my energy bill!</h1>
+				</section>
+
+				<section>
+					<img src='images/express.png'/>
+					<p>
+						<a href='http://www.express.co.uk/posts/view/338051/Energy-bills-to-rocket-by-300'>Daily Express, August 7, 2012</a>
+						<br/>
+						<small>
+							Image from <a href='http://www.frontpagestoday.co.uk/uk/daily-express/newspaper.cfm?frontpage=18953'>Front Pages Today</a>
+						</small>
+					</p>
+					<aside class="notes">
+						Notes go here!
+					</aside>
+				</section>
+
+				<section>
+					<blockquote>
+						Fusion energy - if it would ever operate - would create a serious waste problem, 
+						would emit large amounts of radioactive material and could be used to produce materials 
+						for nuclear weapons. A whole new set of nuclear risks would thus be created.
+					</blockquote>
+					<p>
+						<a href='http://www.greenpeace.org/international/en/press/releases/ITERprojectFrance/'>Greenpeace press release, June 28, 2005</a>
+					</p>
+				</section>
+
+			</div>
+
+		</div>
+
+		<script src="reveal.js/lib/js/head.min.js"></script>
+		<script src="reveal.js/js/reveal.min.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: 'default',
+				transition: 'fade',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
