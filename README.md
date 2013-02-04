@@ -16,4 +16,4 @@ The code uses the [reveal.js](https://github.com/hakimel/reveal.js) framework. T
 you need to do the following commands in order to edit:
 
     git submodule init
-		git submodule update
+    git submodule update
